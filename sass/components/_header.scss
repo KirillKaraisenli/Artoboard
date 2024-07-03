@@ -1,0 +1,43 @@
+.header {
+    color: $basikColor;
+    height: 173px;
+    width: 177px;
+    margin-top: 19px;
+    margin-bottom: 22px;
+}
+}
+
+.header .container {
+    display: flex;
+    flex-direction: column;
+    gap: 112px;
+    align-items: center;
+}
+
+.header__button-list {
+display: flex;
+gap: 4px;
+}
+
+.header__button-item {
+
+}
+
+.header__button {
+    color: $basikColor;
+    text-align: center;
+    font-family: "Montserrat", sans-serif;
+    font-size: 14px;
+    font-weight: 700;
+    background-color: transparent;
+    padding: 11px 15px;
+}
+
+.sign-up{
+border: 2px solid $basikColor;
+border-radius: 20px;
+padding: 11px 15px;
+}
+
+.header__logo {
+}
