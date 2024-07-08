@@ -1,9 +1,26 @@
 
 .hero {
+    background-image: url('../../img/hero.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
-.hero__title {
+.hero__title {color: #FFF;
+    text-align: center;
+    font-family: Montserrat;
+    font-size: 30.041px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    text-transform: uppercase;
 }
-.hero__text {
+.hero__text {color: #FFF;
+    text-align: center;
+    font-family: Roboto;
+    font-size: 18.025px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: normal;
 }
 .hero__button {
 }
