@@ -4,23 +4,84 @@
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+    padding-top: 214px;
+    padding-bottom: 136px;
+    color: $basikColor;
+    text-align: center;
 }
-.hero__title {color: #FFF;
+.hero__title {
     text-align: center;
     font-family: Montserrat;
-    font-size: 30.041px;
-    font-style: normal;
     font-weight: 700;
-    line-height: normal;
     text-transform: uppercase;
+    font-size: 30.041px;
+    width: 306.026px;
+    margin: 0 auto;
+    margin-bottom: 12px;
 }
-.hero__text {color: #FFF;
+.hero__text {
     text-align: center;
     font-family: Roboto;
     font-size: 18.025px;
-    font-style: normal;
     font-weight: 300;
-    line-height: normal;
+    margin-bottom: 12px;
+    margin: 0 auto;
+    margin-bottom: 17px;
+    font-size: 18.025px;
+    width: 230;
 }
 .hero__button {
+color: #FFF;
+text-align: center;
+font-family: "Montserrat", sans-serif;
+font-size: 14x;
+font-weight: 700;
+width: 282px;
+height: 43px;
+margin: 0 auto;
+background-color: $accentcolor;
+border-radius: 20px;
+}
+
+
+
+// tablet
+
+@media  screen and (min-width:768px) {
+
+    .hero {
+        padding-top: 200px;
+        padding-bottom: 233px;
+    }
+    .hero__title {
+        font-weight: 700;
+        text-transform: uppercase;
+        font-size: 52.041px;
+        width: 306.026px;
+        margin: 0 auto;
+        margin-bottom: 12px;
+    }
+    .hero__text {
+        text-align: center;
+        font-family: Roboto;
+        font-size: 18.025px;
+        font-weight: 300;
+        margin-bottom: 12px;
+        margin: 0 auto;
+        margin-bottom: 17px;
+        font-size: 18.025px;
+        width: 230;
+    }
+    .hero__button {
+    color: #FFF;
+    text-align: center;
+    font-family: "Montserrat", sans-serif;
+    font-size: 14x;
+    font-weight: 700;
+    width: 282px;
+    height: 43px;
+    margin: 0 auto;
+    background-color: $accentcolor;
+    border-radius: 20px;
+    }
 }

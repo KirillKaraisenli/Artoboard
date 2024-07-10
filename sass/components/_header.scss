@@ -1,12 +1,13 @@
 .header {
     color: $basikColor;
     height: 173px;
-    margin-top: 19px;
-    margin-bottom: 22px;
-    // position: absolute;
-    // top: 0;
-    // left: 0;
-    // width: 100%;
+    padding-top: 19px;
+    padding: 22px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    
 }
 
 .header .container {
@@ -41,5 +42,91 @@ border-radius: 20px;
 padding: 11px 15px;
 }
 
-.header__logo {
+.header__logo {color: #FFF;
+    text-align: center;
+    font-family: Montserrat;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+}
+
+
+// tablet
+@media  screen and (min-width:768px) {
+    .header {
+        padding-top: 36px;
+        
+    }
+    
+    .header .container {
+        flex-direction: row-reverse;
+        gap: 0;
+      justify-content: space-between;
+    }
+    
+}
+
+// desctop
+@media  screen and (min-width:1200px){
+
+    .header {
+        color: $basikColor;
+        height: 173px;
+        padding-top: 19px;
+        padding: 22px;
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        
+    }
+    
+    .header .container {
+        display: flex;
+        flex-direction: column;
+        gap: 112px;
+        align-items: center;
+    }
+    
+    .header__button-list {
+    display: flex;
+    gap: 4px;
+    }
+    
+    .header__button-item {
+    
+    }
+    
+    .header__button {
+        color: $basikColor;
+        text-align: center;
+        font-family: "Montserrat", sans-serif;
+        font-size: 14px;
+        font-weight: 700;
+        background-color: transparent;
+        padding: 11px 15px;
+    }
+    
+    .sign-up{
+    border: 2px solid $basikColor;
+    border-radius: 20px;
+    padding: 11px 15px;
+    }
+    
+    .header__logo {color: #FFF;
+        text-align: center;
+        font-family: Montserrat;
+        font-size: 20px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: normal;
+        letter-spacing: 1px;
+        text-transform: uppercase;
+    }
+    
+    
+
 }
