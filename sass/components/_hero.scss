@@ -24,14 +24,14 @@
     font-family: Roboto;
     font-size: 18.025px;
     font-weight: 300;
-    margin-bottom: 12px;
+    margin-top: 12px;
     margin: 0 auto;
     margin-bottom: 17px;
     font-size: 18.025px;
-    width: 230;
+    width: 230px;
 }
 .hero__button {
-color: #FFF;
+    color: #FFF;
 text-align: center;
 font-family: "Montserrat", sans-serif;
 font-size: 14x;
@@ -55,33 +55,19 @@ border-radius: 20px;
     }
     .hero__title {
         font-weight: 700;
-        text-transform: uppercase;
         font-size: 52.041px;
-        width: 306.026px;
-        margin: 0 auto;
-        margin-bottom: 12px;
+        width: 507.026px;
     }
     .hero__text {
-        text-align: center;
-        font-family: Roboto;
-        font-size: 18.025px;
+        font-size: 24.021px;        
         font-weight: 300;
-        margin-bottom: 12px;
-        margin: 0 auto;
-        margin-bottom: 17px;
-        font-size: 18.025px;
-        width: 230;
+        margin-top: 36px;
+        margin-bottom: 33px;
+        width: 428px;
     }
     .hero__button {
-    color: #FFF;
-    text-align: center;
-    font-family: "Montserrat", sans-serif;
-    font-size: 14x;
-    font-weight: 700;
-    width: 282px;
-    height: 43px;
-    margin: 0 auto;
-    background-color: $accentcolor;
-    border-radius: 20px;
+        width: 228px;
+        height: 42px;
+        font-size: 14.012px;
     }
 }
